@@ -9,17 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/teodoran/pi-node-synth"
+    "url": "https://github.com/teodoran/loudspeaker-gettingstarted"
   },
   "authors": [
     "Teodor Ande Elstad <teodor@andeelstad.com>"
   ],
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^3.3.5",
-    "express": "^4.13.3",
-    "fastclick": "^1.0.6",
-    "shelljs": "^0.5.3",
-    "socket.io": "^1.3.7"
+    "socket.io-client": "^1.4.6"
   }
 }
