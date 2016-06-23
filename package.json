@@ -1,0 +1,25 @@
+{
+  "name": "loudspeaker-gettingstarted",
+  "version": "1.0.0",
+  "description": "A starting point for getting started with the loudspeaker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teodoran/pi-node-synth"
+  },
+  "authors": [
+    "Teodor Ande Elstad <teodor@andeelstad.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "express": "^4.13.3",
+    "fastclick": "^1.0.6",
+    "shelljs": "^0.5.3",
+    "socket.io": "^1.3.7"
+  }
+}

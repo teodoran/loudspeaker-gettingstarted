@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Synth</title>
+    <script src="/static/fastclick/lib/fastclick.js"></script>
+    <script src="/static/socket.io/node_modules/socket.io-client/socket.io.js"></script>
+
+    <!-- CSS -->
+    <link href="/static/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="synth.css" rel="stylesheet">
+
+    <!-- JS -->
+    <script type="text/javascript" src="synth.js"></script>
+</head>
+<body>
+<table>
+    <tr>
+        <td onclick="play('C')" style="background-color: lightblue;" class="inactive"></td>
+        <td onclick="play('D')" style="background-color: violet;" class="inactive"></td>
+        <td onclick="play('E')" style="background-color: lightgray;" class="inactive"></td>
+        <td onclick="play('F')" style="background-color: limegreen;" class="inactive"></td>
+    </tr>
+    <tr>
+        <td onclick="play('G')" style="background-color: limegreen;" class="inactive"></td>
+        <td onclick="play('A')" style="background-color: lightgray;" class="inactive"></td>
+        <td onclick="play('B')" style="background-color: violet;" class="inactive"></td>
+        <td onclick="play('C5')" style="background-color: lightblue;" class="inactive"></td>
+    </tr>
+</table>
+</body>
+</html>
